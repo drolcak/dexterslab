@@ -11,23 +11,125 @@
 /*reset styli*/
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Asap', sans-serif;
+
 }
 
 
-body {
+.section1 {
     background-image: url("../img/lab-background-by-tookishperiannath-d3fla5b.png"), url("../img/rectangle-1.png") ;
-    background-repeat: no-repeat;
+    width: 100%;
+
 
 }
-/* content-left-box start*/
+    /* pseudo-nav start*/
 
-.content1-left-box{color:white}
+.logo {
+    height: 50px;
+}
+.logo2{
+
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+/* content-left-box start*/
+.content1-left-box {
+    color: white
+}
 .content1-left-box h1{
+    margin-top: 45%;
     font-size: 55px;
     font-weight: 700;
 }
 
 .content1-left-box p{
     font-size: 18px;
+}
+
+.content1-left-box button {
+
+    background-color: #49b9e6;
+    width: 200px;
+    height: 60px;
+    border: none;
+}
+/* content 2 (social buttons row  start*/
+
+.content2 p {
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 40px;
+}
+
+
+/* icon row*/
+.icon-row {
+    background-color: #0084b8;
+    padding-top: 119px;
+    padding-bottom: 119px;
+    color: white;
+    text-align: center;
+}
+
+.icon-row h2 {
+    font-size: 55px;
+    line-height: 25px;
+    font-weight: 700;
+    padding-top: 10%;
+}
+
+#mid{
+    margin-top: -4%;
+}
+
+/* Lonely Ginger Box*/
+
+.Lonely-Ginger-Box {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.Lonely-Ginger-Box p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Lonely-Ginger-Box h2{
+
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: -8%;
+    margin-bottom: 40px;
+}
+.Lonely-Ginger-Box-left {
+padding-top: 2%;
+padding-bottom:2%
+}
+
+.grey-box-Lonely-Ginger-Box-right p {
+    background-color: #ecf0f1;
+    opacity: 1;
+    font-style: italic;
+    line-height: 30px;
+    padding: 5%;
+    color: #000000;
+    margin-top: 41px;
+
+
+
+}
+
+.grey-box-Lonely-Ginger-Box-right img {
+    float:right;
+    margin-top: -10%;
+    margin-right: -10%;
+}
+.grey-box-signature-Lonely-Ginger-Box-right p{
+    color: #00a3e4;
+    padding-left: 5%;
 }
 
