@@ -9,4 +9,25 @@
     outline: 0;
 }
 /*reset styli*/
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Asap', sans-serif;
+}
+
+
+body {
+    background-image: url("../img/lab-background-by-tookishperiannath-d3fla5b.png"), url("../img/rectangle-1.png") ;
+    background-repeat: no-repeat;
+
+}
+/* content-left-box start*/
+
+.content1-left-box{color:white}
+.content1-left-box h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.content1-left-box p{
+    font-size: 18px;
+}
 
