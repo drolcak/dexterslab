@@ -85,6 +85,11 @@ button {
 
 .logo {
     height: 50px;
+
+}
+
+.logo p{
+    font-size: 25px;
 }
 .logo2{
 
