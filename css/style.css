@@ -43,14 +43,16 @@ h2 {
 h3{
     font-size: 35px;
     font-weight: 700;
+
 }
 
 h4 {
     opacity: 0.5;
-    color: #000000;
     font-size: 25px;
     font-style: italic;
-    line-height: 30px;
+
+
+
 
 }
 
@@ -218,4 +220,17 @@ padding-bottom:2%
 .more {
     color: #00a3e4;
     font-weight: 400;
+}
+
+/*yellow row*/
+.yellow-row {
+    height: 150px;
+    background: #f1c40f;
+    text-align: center;
+}
+
+.yellow-row h1 {
+    font-size: 30px;
+    color: white;
+    padding-top: 50%;
 }
