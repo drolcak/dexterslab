@@ -36,6 +36,13 @@
     .yellow-row h2 {
         margin-top: 8%;
     }
+    .yellow-row img {
+        display: none;
+    }
+
+
+
+
 }
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Asap', sans-serif;
@@ -251,11 +258,47 @@ padding-bottom:2%
     font-weight: 700;
     line-height: 25px;
     margin-top: 60px;
+    text-align: center;
 }
 
 .yellow-row img {
     max-width: 30px;
     max-height: 30px;
     margin-top: 60px;
+    float: left;
 }
+
+/* footer */
+
+footer {
+    background: #d8af0c;
+   }
+
+.footer-box {
+    margin-top:5%;
+   }
+
+.footer-box a{
+    color:#ffffff;
+}
+
+.footer-box p {
+    color:#ffffff;
+    padding-left: 16%;
+}
+
+
+.footer-box h3{
+    font-size: 20px;
+    font-weight: 700;
+    color:#ffffff;
+    margin-bottom: 5%;
+}
+
+.footer-box img{
+    float:left;
+    margin-right: 25px;
+}
+
+
 
