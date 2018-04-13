@@ -69,9 +69,6 @@ h4 {
     font-size: 25px;
     font-style: italic;
 
-
-
-
 }
 
 button {
@@ -82,6 +79,30 @@ button {
     border: none;
 }
 
+
+/* unvisited link
+
+a:link {
+    color: red;
+}
+
+
+a:visited {
+    color: green;
+}
+
+
+a:hover {
+    color: hotpink;
+}
+
+
+a:active {
+    color: blue;
+}
+*/
+
+/* klasy*/
 .section1 {
     background-image: url("../img/lab-background-by-tookishperiannath-d3fla5b.png"), url("../img/rectangle-1.png") ;
     width: 100%;
@@ -120,9 +141,6 @@ button {
 .content1-left-box p{
     font-size: 18px;
 }
-
-
-
 
 
 /* content 2 (social buttons row  start*/
@@ -226,7 +244,6 @@ padding-bottom:2%
 
 }
 
-
 .avatar-box img {
     min-height: 230px;
     margin-top: 20px;
@@ -274,6 +291,10 @@ footer {
     background: #d8af0c;
    }
 
+footer a {
+
+}
+
 .footer-box {
     margin-top:5%;
    }
@@ -282,6 +303,9 @@ footer {
     color:#ffffff;
 }
 
+.footer-box a:hover {
+    color: #ffffff;
+}
 .footer-box p {
     color:#ffffff;
     padding-left: 16%;
@@ -298,6 +322,10 @@ footer {
 .footer-box img{
     float:left;
     margin-right: 25px;
+}
+
+.footer-box a:hover{
+    color: white;
 }
 
 
